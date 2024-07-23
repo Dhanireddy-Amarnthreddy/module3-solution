@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  .section {
+    min-height: 300px; /* Set a minimum height for sections */
+    background-color: #f8f9fa;
+    /* margin-left: 1px; */
+    margin-bottom: 20px;
+    padding: 5px; /* Add padding to create a gap between the border and content */
+    border: 1px solid #ddd; /* Add a border to each box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for better visibility */
+  }
+  
+  .section h3 {
+    margin-top: 0;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+    background-color: #ccc;
+  }
+  
+  .navbar-nav > li > a {
+    padding: 15px 20px;
+  }
+  
+  .container-fluid {
+    margin-top: 20px;
+  }
+  
